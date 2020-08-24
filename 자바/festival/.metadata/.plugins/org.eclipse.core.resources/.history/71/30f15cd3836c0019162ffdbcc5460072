@@ -1,0 +1,20 @@
+package festival;
+
+import java.util.Scanner;
+
+public class no9 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("정수 입력 >> ");
+		String number = sc.nextLine();
+
+	}
+	public static String ceasar(String number) {
+		
+		String Password = number+3;
+		
+		return Password;
+	}
+}

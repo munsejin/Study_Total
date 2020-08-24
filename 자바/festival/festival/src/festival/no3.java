@@ -1,0 +1,39 @@
+package festival;
+
+public class no3 {
+
+	public static void main(String[] args) {
+		String score = "A,A,B,C,D,A,C,D,D,D,F";
+		String alpha[] = score.split("");
+		int acnt = 0;
+		int bcnt = 0;
+		int ccnt = 0;
+		int dcnt = 0;
+		int fcnt = 0;
+		
+		for(int i =0; i < alpha.length(); i++) {
+			if(score(i).equals"A") {
+				++acnt;
+			}
+			else if(score(i).equals"B") {
+					++bcnt;
+			}
+			else if(score(i).equals"C") {
+				++ccnt;
+			}
+			else if(score(i).equals"D") {
+				++dcnt
+			}
+			else if(score(i).equals"F) {
+				++fcnt
+			}
+		}
+		System.out.println(" A : " + acnt);
+		System.out.println(" B : " + bcnt);
+		System.out.println(" C : " + ccnt);
+		System.out.println(" D : " + dcnt);
+		System.out.println(" F : " + fcnt);
+		
+	}
+
+}
